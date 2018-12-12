@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="vertxFactory" class="org.talron.springvertx.verticlelauncher.VertxFactoryObject" init-method="initCluster" />
+
+    <bean id="springVerticleFactory" class="org.talron.springvertx.verticlelauncher.SpringVerticleFactory">
+        <property name="vertx" ref="vertxFactory" />
+    </bean>
+    <bean id="verticlesDeployer" class="org.talron.springvertx.verticlelauncher.VerticlesDeployer" init-method="deploy" destroy-method="undeploy">
+        <property name="vertx" ref="vertxFactory" />
+        <property name="verticles">
+            <list>
+                <bean class="org.talron.springvertx.verticlelauncher.VerticleBean">
+                    <property name="beanName" value="spring:flightServiceVerticle"/>
+                    <property name="scale" value="true" />
+                </bean>
+                <bean class="org.talron.springvertx.verticlelauncher.VerticleBean">
+                    <property name="beanName" value="spring:flightService"/>
+                    <property name="scale" value="true" />
+                </bean>
+                <bean class="org.talron.springvertx.verticlelauncher.VerticleBean">
+                    <property name="beanName" value="spring:httpVerticle"/>
+                    <property name="scale" value="true" />
+                </bean>
+
+            </list>
+        </property>
+    </bean>
+
+    <bean id="flightServiceVerticle" class="com.blueribbon.flightservice.service.verticles.flightServiceVerticle" scope="prototype">
+        <property name="flightService" ref="flightService" />
+    </bean>
+
+    <bean id="httpVerticle" class="com.blueribbon.commons.web.verticles.HttpVerticle" scope="prototype">
+        <property name="resourceHandlers">
+            <map>
+                <entry key="/tickets">
+                    <bean class="com.blueribbon.flightservice.service.resourcehandlers.FlightResourceHandler" scope="prototype">
+                        <property name="flightService" ref="flightServiceVertxEBProxy" />
+                    </bean>
+                </entry>
+            </map>
+        </property>
+        <property name="port" value="${http.port}" />
+        <property name="enableCors" value="true" />
+    </bean>
+
+    <bean id="flightService" class="com.blueribbon.flightservice.service.impl.flightServiceImpl" scope="prototype">
+        <property name="sqlClient" ref="sqlClientFactory" />
+        <property name="vertx" ref="vertxFactory" />
+    </bean>
+
+    <bean id="flightServiceVertxEBProxy" class="com.blueribbon.flightservice.service.flightServiceContextualVertxEBProxy" scope="prototype">
+        <constructor-arg ref="vertxFactory" />
+        <constructor-arg value="#{T(com.blueribbon.flightservice.service.flightService).SERVICE_ADDRESS}" />
+    </bean>
+
+</beans>

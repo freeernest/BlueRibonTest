@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="vertxFactory" class="org.talron.springvertx.verticlelauncher.VertxFactoryObject"  init-method="initCluster"/>
+
+    <bean id="springVerticleFactory" class="org.talron.springvertx.verticlelauncher.SpringVerticleFactory">
+        <property name="vertx" ref="vertxFactory" />
+    </bean>
+
+    <bean id="producer" class="cluster.Producer">
+        <property name="vertx" ref="vertxFactory"/>
+    </bean>
+
+    <bean id="consumer" class="cluster.Consumer">
+        <property name="vertx" ref="vertxFactory"/>
+    </bean>
+
+</beans>
