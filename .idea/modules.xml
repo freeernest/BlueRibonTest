@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BlueRibbonTest.iml" filepath="$PROJECT_DIR$/.idea/BlueRibbonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flightservice/flightservice-db-scripts/flightservice-db-scripts.iml" filepath="$PROJECT_DIR$/flightservice/flightservice-db-scripts/flightservice-db-scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flightservice/flightservice-interface/flightservice-interface.iml" filepath="$PROJECT_DIR$/flightservice/flightservice-interface/flightservice-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flightservice/flightservice-parent.iml" filepath="$PROJECT_DIR$/flightservice/flightservice-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flightservice/flightservice-service/flightservice-service.iml" filepath="$PROJECT_DIR$/flightservice/flightservice-service/flightservice-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verticlelauncher/verticlelauncher.iml" filepath="$PROJECT_DIR$/verticlelauncher/verticlelauncher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vertxmicroservicescommon/vertx-microservice-commons.iml" filepath="$PROJECT_DIR$/vertxmicroservicescommon/vertx-microservice-commons.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53290f7e-0ef8-46cf-b82c-fd8974a1df88" name="Default" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/flightservice/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/composite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/marketingCategory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/parallel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/Schemes/Add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/Schemas/categorySchema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/Schemas/compositeSchema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/Schemas/marketingCategorySchema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/Schemas/parallelSchema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/composite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/lib/jsonEditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/marketingCategory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-admin-client/src/js/parallel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-db-scripts/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-db-scripts/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-db-scripts/src/main/resources/changelog/db.changelog-avivb-001.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-db-scripts/src/main/resources/changelog/db.changelog-initial.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-db-scripts/src/main/resources/changelog/db.changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-db-scripts/src/main/resources/changelogprod/db.changelog-initial.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-db-scripts/src/main/resources/changelogprod/db.changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-db-scripts/src/main/resources/liquibase.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-interface/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-interface/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-interface/src/main/java/com/cedex/catalog/service/CatalogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-interface/src/main/java/com/cedex/catalog/service/GemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-interface/src/main/java/com/cedex/catalog/service/MarketingCategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-interface/src/main/java/com/cedex/catalog/service/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/CatalogApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/Clarity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/CuletCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/CuletSize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/Cut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/FluorescenceColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/FluorescenceIntensity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/GirdleCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/Lab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/Polish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/enums/Symmetry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/errorcodes/CatalogErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/impl/CatalogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/impl/GemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/impl/MarketingCategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/resourcehandlers/CatalogResourceHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/resourcehandlers/GemResourceHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/resourcehandlers/MarketingCategoryResourceHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/verticles/CatalogServiceVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/verticles/GemServiceVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/java/com/cedex/catalog/service/verticles/MarketingCatalogServiceVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/resources/application-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/resources/verifications/CatalogService.ver.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/resources/verifications/GemService.ver.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/catalog-service/src/main/resources/verifications/MarketingCategoryService.ver.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/docker-compose-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flightservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flightservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verticlelauncher/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/verticlelauncher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/verticlelauncher/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/ApplicationContextProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/ApplicationContextProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VertxFactoryObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VertxFactoryObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/async/FutureUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/async/FutureUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/async/SafeAsyncResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/async/SafeAsyncResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/async/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/async/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/audit/Audit.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/audit/Audit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/communicationcenter/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/communicationcenter/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/communicationcenter/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/communicationcenter/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/communicationcenter/EventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/communicationcenter/EventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/communicationcenter/ShortEventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/communicationcenter/ShortEventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/crm/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/crm/UserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/dictionary/DictionaryResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/dictionary/DictionaryResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/dictionary/DictionaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/dictionary/DictionaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/dictionary/DictionaryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/dictionary/DictionaryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/eutils/EHException.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/eutils/EHException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/eutils/EHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/eutils/EHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/eutils/EHandlerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/eutils/EHandlerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/eutils/TestT.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/eutils/TestT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/eutils/TestU.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/eutils/TestU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/eutils/WAE.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/eutils/WAE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/flows/status/StatusBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/flows/status/StatusBehaviour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/flows/status/StatusFlowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/flows/status/StatusFlowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/flows/status/StatusFlowManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/flows/status/StatusFlowManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/flows/status/StatusFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/flows/status/StatusFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/http/HttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/http/HttpClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/http/HttpClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/http/HttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/http/HttpHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/inventory/loader/DataRawSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/inventory/loader/DataRawSink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/inventory/loader/KafkaDataRawSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/inventory/loader/KafkaDataRawSink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/inventory/loader/MappingJSONObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/inventory/loader/MappingJSONObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/inventory/loader/StatusTopicMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/inventory/loader/StatusTopicMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/inventory/loader/TopicProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/inventory/loader/TopicProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/json/JsonComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/json/JsonComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/json/JsonConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/json/JsonConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/json/refs/JsonRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/json/refs/JsonRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/json/refs/JsonRefHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/json/refs/JsonRefHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/json/refs/JsonRefResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/json/refs/JsonRefResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/json/refs/JsonRefResolverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/json/refs/JsonRefResolverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/json/refs/JsonRefsResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/json/refs/JsonRefsResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/json/refs/JsonRefsResolverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/json/refs/JsonRefsResolverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/logging/SLF4JEnabler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/logging/SLF4JEnabler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/lut/LutEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/lut/LutEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/security/AuthorizationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/security/AuthorizationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/security/ForbiddenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/security/ForbiddenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/security/JWTAuthFactoryObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/security/JWTAuthFactoryObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/security/PasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/security/PasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/security/UnauthorizedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/security/UnauthorizedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/security/annotations/Authorize.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/security/annotations/Authorize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/security/annotations/AuthorizeEnforcementType.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/security/annotations/AuthorizeEnforcementType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/security/context/ContextualEventBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/security/context/ContextualEventBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/security/context/ContextualVertx.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/security/context/ContextualVertx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/services/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/services/AbstractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/services/SqlModelRepositoryWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/services/SqlModelRepositoryWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/services/SqlRepositoryWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/services/SqlRepositoryWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/services/proxy/ServiceContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/services/proxy/ServiceContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/services/proxy/ServiceContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/services/proxy/ServiceContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/sql/MySQLClientFactoryObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/sql/MySQLClientFactoryObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/sql/PostgreSQLClientFactoryObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/sql/PostgreSQLClientFactoryObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/sql/exceptions/GenericSqlException.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/sql/exceptions/GenericSqlException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/sql/helpers/JsonToSqlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/sql/helpers/JsonToSqlHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/sql/helpers/PaginationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/sql/helpers/PaginationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/sql/helpers/QueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/sql/helpers/QueryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/sql/helpers/QueryCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/sql/helpers/QueryCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/sql/helpers/QueryCriteriaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/sql/helpers/QueryCriteriaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/streams/BackPressuredWriteStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/streams/BackPressuredWriteStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/streams/BackPressuredWriteStreamImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/streams/BackPressuredWriteStreamImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/streams/ThrottleStreamImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/streams/ThrottleStreamImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/streams/ThrottledStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/streams/ThrottledStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/utils/CurrencyConversionUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/utils/CurrencyConversionUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/utils/NetworkUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/utils/NetworkUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/validations/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/validations/InputValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/validations/ValidatorInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/validations/ValidatorInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/validations/ValidatorInterceptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/validations/ValidatorInterceptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/validations/anotations/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/validations/anotations/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/verticles/AbstractMessageableVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/verticles/AbstractMessageableVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/verticles/EmailServiceVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/verticles/EmailServiceVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/verticles/EventBusExporterVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/verticles/EventBusExporterVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/verticles/KafkaJsonSenderVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/verticles/KafkaJsonSenderVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/verticles/KafkaListenerRouterVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/verticles/KafkaListenerRouterVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/verticles/KafkaSenderVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/verticles/KafkaSenderVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/verticles/KafkaStringSenderVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/verticles/KafkaStringSenderVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/auth/JWTAuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/auth/JWTAuthHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/auth/PasswordAuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/auth/PasswordAuthHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/auth/RoutingContextWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/auth/RoutingContextWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/auth/SecurityContextHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/auth/SecurityContextHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/errors/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/errors/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/errors/GeneralErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/errors/GeneralErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/exceptions/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/exceptions/BadRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/exceptions/InputValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/exceptions/InputValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/exceptions/ServerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/exceptions/ServerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/handler/InputValidatorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/handler/InputValidatorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/handler/QueryString2BodyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/handler/QueryString2BodyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/handler/TrailingSlashHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/handler/TrailingSlashHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/handler/URIParamsToBodyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/handler/URIParamsToBodyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/helpers/RequestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/helpers/RequestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/helpers/ResponseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/helpers/ResponseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/resourcehandlers/AbstractJWTResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/resourcehandlers/AbstractJWTResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/resourcehandlers/AbstractResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/resourcehandlers/AbstractResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/resourcehandlers/EventBusImporterResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/resourcehandlers/EventBusImporterResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/resourcehandlers/HealthCheckResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/resourcehandlers/HealthCheckResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/resourcehandlers/JWTResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/resourcehandlers/JWTResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/resourcehandlers/ResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/resourcehandlers/ResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/resourcehandlers/StaticResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/resourcehandlers/StaticResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/web/verticles/HttpVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/verticles/HttpVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/inventory/loader-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/inventory/loader-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/jwt-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/jwt-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/mysql-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/mysql-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/postgresql-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/postgresql-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/serviceproxy/template/contextawarehandlergen.templ" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/serviceproxy/template/contextawarehandlergen.templ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/serviceproxy/template/contextualproxy.templ" beforeDir="false" afterPath="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/serviceproxy/template/contextualproxy.templ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertxmicroservicescommon/src/test/java/com/cedex/commons/eutils/WAETest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/flightservice/flightservice-db-scripts/target/" />
+    <ignored path="$PROJECT_DIR$/flightservice/target/" />
+    <ignored path="$PROJECT_DIR$/flightservice/flightservice-interface/target/" />
+    <ignored path="$PROJECT_DIR$/vertxmicroservicescommon/target/" />
+    <ignored path="$PROJECT_DIR$/verticlelauncher/target/" />
+    <ignored path="$PROJECT_DIR$/flightservice/flightservice-service/target/" />
+    <ignored path="$PROJECT_DIR$/flightservice/catalog-db-scripts/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SpringVerticleFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/SpringVerticleFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerticleBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VerticleBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerticlesDeployer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VerticlesDeployer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VertxAware.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VertxAware.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VertxFactoryObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VertxFactoryObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loader-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/inventory/loader-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlightResourceHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/FlightResourceHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-197">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlRepositoryWrapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/services/SqlRepositoryWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlightService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flightservice/flightservice-interface/src/main/java/com/blueribbon/flightservice/service/FlightService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>catalog</find>
+      <find>flightservice</find>
+      <find>fetchLastEvent</find>
+      <find>gem</find>
+      <find>flightServiceVerticle</find>
+      <find>FlightResourceHandler</find>
+      <find>flightServiceVertxEBProxy</find>
+      <find>cedex</find>
+      <find>dia</find>
+      <find>diam</find>
+      <find>aviv</find>
+      <find>diAMON</find>
+      <find>aviv</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>blueribbon</replace>
+      <replace>flightservice</replace>
+      <replace>blueribon</replace>
+      <replace>erik</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\BlueRibonTest</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vertxmicroservicescommon" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/flightservice/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-interface/src/main/java/com/blueribbon/catalog/service/enums/SupplierEventType.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-interface/src/main/java/com/blueribbon/catalog/service/entities/SupplierEvent.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/CatalogApplication.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-interface/src/main/java/com/blueribbon/flightservice/service/flightserviceService.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/FlightServiceApplication.java" />
+        <option value="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/cedex/commons/logging/SLF4JEnabler.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/FligthServiceApplication.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-db-scripts/src/main/resources/changelog/db.changelog-master.xml" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-db-scripts/src/main/resources/changelog/db.changelog-initial.xml" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/MarketingCategoryResourceHandler.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/AbstractResourceHandler.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/ResourceHandler.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/GemResourceHandler.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-interface/src/main/java/com/blueribbon/flightservice/service/GemService.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-interface/src/main/java/com/blueribbon/flightservice/service/package-info.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/resources/application-context.xml" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/impl/FlightServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-interface/src/main/java/com/blueribbon/flightservice/service/FlightService.java" />
+        <option value="$PROJECT_DIR$/vertxmicroservicescommon/pom.xml" />
+        <option value="$PROJECT_DIR$/verticlelauncher/pom.xml" />
+        <option value="$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribon/commons/inventory/loader/StatusTopicMapperImpl.java" />
+        <option value="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/ApplicationContextProvider.java" />
+        <option value="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/SpringVerticleFactory.java" />
+        <option value="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VerticleBean.java" />
+        <option value="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VerticlesDeployer.java" />
+        <option value="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VertxAware.java" />
+        <option value="$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VertxFactoryObject.java" />
+        <option value="$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/inventory/loader-context.xml" />
+        <option value="$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/FlightResourceHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flightservice-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flightservice-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vertx-microservice-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vertx-microservice-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-192" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BlueRibonTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueRibonTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="SLF4JEnabler&#9;PSI&#9;JAVA://com.blueribbon.commons.logging.SLF4JEnabler&#10;SupplierEventType&#9;PSI&#9;JAVA://com.blueribbon.flightservice.service.enums.SupplierEventType" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flightservice/flightservice-service/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.blueribbon.flightservice.service.impl" />
+      <recent name="com.blueribbon.flightservice.service" />
+      <recent name="com.blueribbon.flightservice.service.resourcehandlers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\BlueRibonTest\flightservice\flightservice-interface\src\main\java\com\blueribbon\flightservice\service" />
+      <recent name="C:\BlueRibonTest\flightservice\flightservice-service\src\main\java\com\blueribbon\flightservice\service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53290f7e-0ef8-46cf-b82c-fd8974a1df88" name="Default" comment="" />
+      <created>1544534429985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544534429985</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-192" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.19083156" side_tool="true" visible="true" weight="0.45394006" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.15938166" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80916846" visible="true" weight="0.45394006" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49840087" weight="0.32963374" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Fix undeployment of vertx&#10;Add fix to throttled read stream.&#10;Tag last images for autotests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix undeployment of vertx&#10;Add fix to throttled read stream.&#10;Tag last images for autotests" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/flightservice-service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-db-scripts/src/main/resources/liquibase.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/DiamondResourceHandlerFE.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/DiamondResourceHandler.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/ConfigResourceHandler.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/MarketingCategoryResourceHandler.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/CatalogResourceHandler.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/DiamondStatusLedgerResourceHandler.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/FligthServiceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/ResourceHandler.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/AbstractResourceHandler.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/codegen.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-db-scripts/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-interface/src/main/java/com/blueribbon/flightservice/service/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/resources/application-context.xml" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/impl/FlightServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/flightservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-db-scripts/src/main/resources/changelog/db.changelog-master.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/docker-compose.yml" />
+    <entry file="file://$PROJECT_DIR$/flightservice/docker-compose-test.yml" />
+    <entry file="file://$PROJECT_DIR$/flightservice/Jenkinsfile" />
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/Jenkinsfile" />
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/Jenkinsfile" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-interface/catalog-interface.iml" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-interface/flightservice-interface.iml" />
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-db-scripts/flightservice-db-scripts.iml" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-parent.iml" />
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/vertx-microservice-commons.iml" />
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/verticlelauncher.iml" />
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/target/generated-sources/annotations/com/blueribbon/commons/communicationcenter/EmailServiceVertxProxyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#6810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-db-scripts/src/main/resources/changelog/db.changelog-initial.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribon/commons/inventory/loader/StatusTopicMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/ApplicationContextProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/SpringVerticleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VerticleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VerticlesDeployer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VertxAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/src/test/java/cluster/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verticlelauncher/src/main/java/org/talron/springvertx/verticlelauncher/VertxFactoryObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/src/main/resources/inventory/loader-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-interface/src/main/java/com/blueribbon/flightservice/service/FlightService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/communicationcenter/EventDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/target/generated-sources/annotations/com/blueribbon/commons/communicationcenter/EventDtoConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" column="73" lean-forward="true" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/web/exceptions/InputValidationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flightservice/flightservice-service/src/main/java/com/blueribbon/flightservice/service/resourcehandlers/FlightResourceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertxmicroservicescommon/src/main/java/com/blueribbon/commons/services/SqlRepositoryWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>flightservice-db-scripts</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

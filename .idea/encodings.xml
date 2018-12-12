@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/flightservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flightservice/flightservice-db-scripts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flightservice/flightservice-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flightservice/flightservice-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/verticlelauncher" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vertxmicroservicescommon" charset="UTF-8" />
+  </component>
+</project>
